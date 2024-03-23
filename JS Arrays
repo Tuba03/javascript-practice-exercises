@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> JavaScript </title>
+</head>
+
+<body>
+    <script lang="javascript" type="text/javascript">
+        var arr = new Array(7, 3, 4, 6, 9, 6);
+        var i, j, temp;
+
+
+        document.write("<br/> Before sort... </br>");
+        for (i = 0; i < 6; i++) {
+            document.write(arr[i] + "</br>");
+        }
+
+        // bubble sort(running loop) : n*n-1
+        //for decending order change "<" to ">"
+
+
+        for (i = 0; i < 6; i++) {
+            for (j = 0; j < 5; j++) {
+                //Bug: The code has a bug in the bubble sort implementation. The loops should iterate up to the array length minus the current index to avoid unnecessary comparisons and out-of-bounds errors.
+                // for (j = 0; j <  arr.length - i - ; j++) {
+                if (arr[j] > arr[j + 1]) {
+                    temp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>
