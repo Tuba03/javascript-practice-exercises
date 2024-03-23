@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> JavaScript </title>
+</head>
+
+<body>
+    <script lang="javascript" type="text/javascript">
+        var num1 = 40, num2 = 10;
+        document.write(num1 + num2, "</br>");
+        document.write(num1 - num2, "</br>");
+        document.write(num1 * num2, "</br>");
+        document.write(num1 / num2, "</br>");
+        document.write(num1 % num2, "</br>");
+
+
+        //another way
+        var result = num1 + num2;
+        document.write(result);
+
+        //another method
+        num1 = num1 + 5; // num1 += 5
+        document.write(num1);
+
+        //another 
+        var result = 10 + 5 * 20;
+        var result = (10 + 5) * 20;
+        document.write(result);
+
+        // //unary operator
+        // num1 = 10;
+        // num++;
+        // document.write(num);
+        // var reult = ++num;
+        // document.write(result, "</br");
+        // document.write(num);
+
+
+        // comparison  var num1=100;
+        document.write(num1 == 10, "</br>"); //false
+        document.write(num1 != 10, "</br>"); //true
+        document.write(num1 >= 10, "</br>");  //true
+        document.write(num1 <= 10, "</br>"); //false
+        document.write(num1 > 10, "</br>");  //true
+        document.write(num1 < 10, "</br>");  //false
+
+        //turnary
+        var uid = prompt("Enter UserId", "User Id");
+        var pwd = prompt("Enter Password:", "password");
+
+        var message = (uid == "joy" && pwd == "1234") ? "welcome" : "invalid user"
+        alert(message);
+
+        var user = prompt("Enter your name: ", "name");
+
+        //true
+        var message = (user == "joy" || user == "jack") ? "welcome" : "invalid user"
+        alert(message);
+
+        //false
+        var message = !(user == "joy" || user == "jack") ? "welcome" : "invalid user"
+        alert(message);
+
+    </script>
+</body>
+
+</html>
