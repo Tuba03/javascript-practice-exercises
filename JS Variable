@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> JavaScript </title>
+</head>
+
+<body>
+    <script lang="javascript" type="text/javascript">
+        var name = "joy";
+        var age = "16";
+        var salary = "2.5k";
+
+        document.write(name);    //print value of identifier
+        document.write("name:" + name + "<br/>");   // print name
+        document.write("age:" + age + "<br/>");  //print age
+        document.write("salary:" + salary + "<br/>");  //print salary
+
+    </script>
+</body>
+
+</html>
