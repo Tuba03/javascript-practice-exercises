@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> JavaScript </title>
+    <script lang="javascript" type="text/javascript">
+        var arr = new Array("img1.png", "img2.png", "img3.png", "img4.png");
+        var i = 1;
+        var ref;
+
+        function piclibrary() {
+            document.images[0].src = arr[i];
+            i++
+            if (i < 3)  //if (i >= arr.length) to correctly loop through all images in the array.
+                i = 0;
+        }
+        function start() {
+            ref = setInterval("piclibrary()", 1000);  //1000ms
+        }
+
+        function stop() {
+            clearInterval(ref); //stop calling piclibrary after 1000ms
+        }
+    </script>
+</head>
+
+<body onload="start()">
+    <img src="img1.png" name="img1" onmouseover="stop()" onmouseout="start()">
+</body>
+
+</html>
