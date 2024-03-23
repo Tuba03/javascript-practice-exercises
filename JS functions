@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> JavaScript </title>
+    <script lang="javascript" type="text/javascript">
+
+        //The document.write method is not recommended for adding content to the page as it overwrites the whole document. Consider using innerHTML or other DOM manipulation methods for better practice.
+        function sayHello(name, age) {
+            // document.write("Hello there!");
+            if (name == "" || age == "")
+            return; //terminate function
+
+            //Avoid using document.write for performance reasons. Consider updating a specific element's content instead of rewriting the entire document.
+            document.write(name + "is" + age + "years old.");
+        }
+    </script>
+</head>
+
+<body>
+    <p>Click the button to call the function</p>
+    <form>
+        <input name="t1" placeholder="Enter name"><br>
+        <input name="t2" placeholder="Enter age"><br>
+        <input type="button" onclick="sayHello(t1.value, t2.value)" value="Say Hello">
+    </form>
+</body>
+
+</html>
