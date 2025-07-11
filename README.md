@@ -1,42 +1,63 @@
-# JavaScript Practice Exercise 🌐✨
+# JavaScript Practice Exercise 🚀
 
-This repository contains a collection of hands-on JavaScript exercises that I’ve written to practice and strengthen my understanding of core frontend concepts. These files cover everything from variables and functions to DOM events and animations.
+This repository is a collection of hands-on exercises I built to learn and reinforce my understanding of core JavaScript concepts. Each file focuses on a specific topic like variables, arrays, DOM events, functions, animations, and operators.
+
+These practice snippets are beginner-friendly and written to explore the fundamentals of JavaScript through interactive browser-based examples.
 
 ---
 
-## 📁 Contents
+## 📁 What's Included
 
 | Topic             | Description |
 |------------------|-------------|
-| `JS Variable/`    | Practice with variable declarations using `var`, `let`, and `const`. Covers scope, hoisting, and initialization. |
-| `JS Operators/`   | Demonstrates use of arithmetic, comparison, logical, and assignment operators in JavaScript. |
-| `JS Arrays/`      | Covers array creation, methods (`push`, `pop`, `map`, `filter`, etc.), and iteration techniques. |
-| `JS Objects/`     | Shows how to define and access objects, use nested structures, and iterate over keys/values. |
-| `JS functions/`   | Practice with function declarations, expressions, arrow functions, and parameter handling. |
-| `JS Events/`      | Demonstrates event listeners such as `click`, `mouseover`, `keydown`, and how to use them with DOM elements. |
-| `JS animations/`  | Basic JavaScript animations using `setInterval`, `setTimeout`, and CSS manipulation. |
+| `JS Variable/`    | Declares and prints variables like `name`, `age`, and `salary` using `document.write()`. |
+| `JS Operators/`   | Demonstrates arithmetic, assignment, comparison, unary, and ternary operators. Uses `prompt()` and `alert()` for input/output. |
+| `JS functions/`   | Collects user input from form fields and displays a message using a custom function. |
+| `JS animations/`  | Creates an image slider using `setInterval()` and pauses animation on mouse hover. |
+| `JS Events/`      | Changes the image source on `mouseover` and `mouseout` using inline JavaScript event handlers. |
+| `JS Objects/`     | Defines a JavaScript object and uses a `for...in` loop to iterate through its properties. |
+| `JS Arrays/`      | Implements a basic **bubble sort** algorithm to sort numeric arrays and prints before/after values. |
 
 ---
 
-## 💡 How to Use
+## 🔍 Key Concepts Practiced
 
-You can:
-1. **Clone the repository**  
+- ✅ Variables and data types
+- ✅ Arithmetic, comparison, and logical operators
+- ✅ DOM manipulation using `document.write()` *(to be refactored to `innerHTML`)*
+- ✅ Functions and event handlers
+- ✅ `prompt()` and `alert()` usage
+- ✅ Object literals and loops
+- ✅ Bubble sort with nested loops
+- ✅ Image swapping on events (`mouseover`, `mouseout`)
+- ✅ Animation using timers
+
+---
+
+## 🚀 How to Run
+
+1. Clone the repository:
    ```bash
    git clone https://github.com/Tuba03/JavaScript
-2. Navigate into each folder and open the corresponding .html file in a browser (especially for DOM and Event-related examples).
+2. Open any .html file in a browser.
 
-3. Use browser console or VS Code Live Server to view output and behavior.
+3. Interact with forms, hover over images, or enter input where prompted.
 
-📚 Why I Created This
+4. Use browser console for logs and document.write() output.
+
+
+## 📚 Why I Created This
 While learning JavaScript, I realized that coding hands-on examples solidifies understanding much better than passive reading. This repo documents my practice journey and serves as a reference for common syntax and logic patterns.
 
 ## 🔧 Technologies Used
-JavaScript
+| Technology               | Description                                                                                                                       |
+| ------------------------ | --------------------------------------------------------------------------------------------------------------------------------- |
+| **HTML5**                | Used to create the structure of the pages and forms for input/output testing.                                                     |
+| **CSS (basic)**          | Used for minimal styling (if added later), though current examples are mostly HTML+JS.                                            |
+| **JavaScript (Vanilla)** | Core language used for all logic, including DOM manipulation, functions, loops, operators, events, and animations.                |
+| **Browser APIs**         | Used features like `document.write()`, `prompt()`, `alert()`, `onmouseover`, `onmouseout`, `setInterval()` and `clearInterval()`. |
+| **DOM Manipulation**     | Accessing and modifying HTML elements and attributes via JavaScript.                                                              |
 
-HTML (for testing DOM/Event concepts)
-
-Chrome DevTools for debugging and output
 
 ## 🤝 Contributions
 This is a personal learning space, but if you'd like to fork it, improve examples, or use it in your own study, feel free!
