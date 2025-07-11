@@ -1,4 +1,4 @@
-# JavaScript Learning Playground 🌐✨
+# JavaScript Practice Exercise 🌐✨
 
 This repository contains a collection of hands-on JavaScript exercises that I’ve written to practice and strengthen my understanding of core frontend concepts. These files cover everything from variables and functions to DOM events and animations.
 
