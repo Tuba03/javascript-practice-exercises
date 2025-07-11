@@ -33,7 +33,9 @@ While learning JavaScript, I realized that coding hands-on examples solidifies u
 
 ## 🔧 Technologies Used
 JavaScript
+
 HTML (for testing DOM/Event concepts)
+
 Chrome DevTools for debugging and output
 
 ## 🤝 Contributions
