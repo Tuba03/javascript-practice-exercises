@@ -31,16 +31,14 @@ You can:
 📚 Why I Created This
 While learning JavaScript, I realized that coding hands-on examples solidifies understanding much better than passive reading. This repo documents my practice journey and serves as a reference for common syntax and logic patterns.
 
-🔧 Technologies Used
-JavaScript (Vanilla)
-
+## 🔧 Technologies Used
+JavaScript
 HTML (for testing DOM/Event concepts)
-
 Chrome DevTools for debugging and output
 
-🤝 Contributions
+## 🤝 Contributions
 This is a personal learning space, but if you'd like to fork it, improve examples, or use it in your own study, feel free!
 
-🙋‍♀️ About Me
+## 🙋‍♀️ About Me
 I’m a Electronics & Computer Engineering graduate passionate about frontend development and AI.
 This repo is a snapshot of my JavaScript foundation as I continue to grow in tech 🚀
